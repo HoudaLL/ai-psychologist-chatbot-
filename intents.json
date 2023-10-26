@@ -1,0 +1,164 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+        "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["goodbye", "bye", "see you later", "farewell", "catch you later"],
+        "responses": ["Goodbye. Take care!", "Farewell, have a wonderful day!","bye!"]
+    },
+    {
+        "tag": "how-are-you",
+        "patterns": ["how are you?", "how's it going?", "how do you feel?", "what's up with you?"],
+        "responses": ["I'm just a chatbot, but thanks for asking! How can I assist you today?", "I'm here to help. What's on your mind?"]
+    },
+    {
+        "tag": "emotions",
+        "patterns": ["I'm feeling sad", "I'm happy", "I'm stressed", "I'm anxious", "I feel overwhelmed", "I'm excited"],
+        "responses": ["I'm here to listen. Tell me more about how you're feeling.", "It's okay to have these emotions. Let's talk about it."]
+    },
+    {
+        "tag": "tell-me-more",
+        "patterns": ["Tell me more", "Go on", "I'd like to hear more", "Please continue", "Share more"],
+        "responses": ["I'm here to listen. Feel free to share your thoughts and feelings.", "I'm all ears. Tell me more about it."]
+    },
+    {
+        "tag": "thank-you",
+        "patterns": ["Thank you", "Thanks", "Appreciate it", "You're helpful", "I'm grateful"],
+        "responses": ["You're welcome!", "I'm here to assist. If you have more to discuss, just let me know."]
+    },
+    {
+        "tag": "family",
+        "patterns": ["Tell me about family", "my family", "Family issues", "Family problems", "Family conflicts"],
+        "responses": ["Family can be a complex topic. How do you feel about your family?", "Let's talk about your family. What's on your mind?"]
+    },
+    {
+        "tag": "loneliness",
+        "patterns": ["I feel lonely", "I'm alone", "No one to talk to", "Lonely and isolated", "Isolation"],
+        "responses": ["I'm here for you. Loneliness can be tough. Let's discuss it.", "You're not alone now. How can I help you with your loneliness?"]
+    },
+    {
+        "tag": "stress-management",
+        "patterns": ["I'm stressed out", "How do I manage stress?", "What can I do to relax?", "Stress relief", "Stressed at work"],
+        "responses": ["Stress is common. Let's explore stress management techniques together.", "Let's work on reducing your stress. What helps you relax?"]
+    },
+    {
+        "tag": "goal-setting",
+        "patterns": ["How do I set goals?", "I don't know what to do with my life", "What's my purpose?", "Setting life goals", "Career goals"],
+        "responses": ["Goal setting is important. We can work on finding your purpose and setting achievable goals.", "Let's focus on your goals and purpose in life. Where would you like to start?"]
+    },
+    {
+        "tag": "self-esteem",
+        "patterns": ["I have low self-esteem", "I don't feel confident", "How can I boost my self-esteem?", "Building self-confidence", "Self-worth"],
+        "responses": ["Improving self-esteem is a journey. Let's start by talking about your strengths.", "Self-esteem can be built. What are your strengths and achievements?"]
+    },
+    {
+        "tag": "relationship",
+        "patterns": ["I'm having relationship issues", "My partner and I are fighting", "How can I improve my relationship?", "I feel distant from my partner"],
+        "responses": ["Relationships can be challenging. Let's talk about what's going on.", "I'm here to help with relationship concerns. Tell me more."]
+    },
+    {
+        "tag": "anxiety",
+        "patterns": ["I'm feeling anxious", "I have an anxiety disorder", "How can I manage anxiety?", "Anxious about the future"],
+        "responses": ["Anxiety is common. Let's explore strategies to cope with it.", "Let's work on managing your anxiety. What triggers it?"]
+    },
+    {
+        "tag": "depression",
+        "patterns": ["I'm depressed", "I have depression", "How can I overcome depression?", "Feeling hopeless"],
+        "responses": ["I'm here to provide support. Let's discuss your feelings and seek solutions.", "Depression can be challenging, but there are ways to improve your mental health."]
+    },
+    {
+        "tag": "stress-relief",
+        "patterns": ["How can I relax?", "I need stress relief techniques", "Ways to unwind after a tough day", "Stressed and overwhelmed"],
+        "responses": ["Stress relief is important for well-being. Let's explore relaxation methods.", "Let's work on reducing stress. What activities help you unwind?"]
+    },
+    {
+        "tag": "coping-mechanisms",
+        "patterns": ["How can I cope with difficult situations?", "Dealing with loss", "Coping with grief", "Handling tough times", "Managing stress at work"],
+        "responses": ["Coping mechanisms can make a difference. Let's discuss your specific challenges.", "You can develop effective coping strategies. Let's explore your options."]
+    },
+    {
+        "tag": "self-reflection",
+        "patterns": ["How can I become more self-aware?", "The importance of self-reflection", "Discovering oneself", "Self-improvement"],
+        "responses": ["Self-awareness is a valuable journey. Let's explore how to enhance it.", "Self-reflection can lead to personal growth. What aspects would you like to focus on?"]
+    },
+    {
+        "tag": "success",
+        "patterns": ["I want to be successful", "How can I achieve my goals?", "Overcoming obstacles", "Pursuing my dreams"],
+        "responses": ["Success is a great ambition. Let's work on a plan to help you reach your goals.", "I'm here to support your journey toward success. What's your vision of success?"]
+    },
+    {
+        "tag": "motivation",
+        "patterns": ["I lack motivation", "How can I stay motivated?", "Motivation tips", "Feeling demotivated"],
+        "responses": ["Maintaining motivation is important. Let's explore ways to stay inspired.", "We can work on boosting your motivation. What are your goals?"]
+    },
+    {
+        "tag": "mental-health",
+        "patterns": ["Mental health concerns", "I'm struggling with my mental health", "Seeking mental health support", "Coping with mental health issues"],
+        "responses": ["Mental health is significant. Let's discuss your concerns and find appropriate resources.", "It's essential to address mental health. How can I assist you in finding help?"]
+    },
+    {
+        "tag": "self-care",
+        "patterns": ["How can I practice self-care?", "The importance of self-care", "Balancing self-care and work", "Self-care routines"],
+        "responses": ["Self-care is vital for well-being. Let's create a self-care plan that works for you.", "Self-care is essential. What activities do you find rejuvenating?"]
+    },
+    {
+        "tag": "therapy",
+        "patterns": ["Should I consider therapy?", "Benefits of therapy", "Finding a therapist", "Therapy options"],
+        "responses": ["Therapy can be highly beneficial. Let's explore the possibilities and what you're comfortable with.", "Therapy is a valuable resource. How can I assist you in finding the right therapist?"]
+    },
+    {
+        "tag": "personal-growth",
+        "patterns": ["How can I grow as a person?", "Continuous self-improvement", "Personal development goals", "Unlocking potential"],
+        "responses": ["Personal growth is a lifelong journey. Let's discuss your goals and the steps to achieve them.", "Personal development is a worthy pursuit. What areas of your life would you like to enhance?"]
+    },
+    {
+        "tag": "stress-at-school",
+        "patterns": ["I'm stressed about school", "Academic stress", "Balancing school and life", "Managing coursework"],
+        "responses": ["School stress is common. Let's explore strategies to manage academic pressures.", "Balancing school and life can be challenging. How can I assist you in reducing stress related to your studies?"]
+    },
+    {
+        "tag": "phobias",
+        "patterns": ["I have a phobia", "Overcoming phobias", "How to deal with specific fears", "Phobia treatment"],
+        "responses": ["Phobias can be distressing. Let's discuss exposure therapy and other techniques to manage them.", "Overcoming phobias is possible with the right approach. Tell me more about your specific fear."]
+    },
+    {
+        "tag": "loneliness-coping",
+        "patterns": ["How can I cope with loneliness?", "Lonely and isolated", "Dealing with social isolation", "Overcoming loneliness"],
+        "responses": ["Coping with loneliness is important. Let's explore ways to connect with others.", "Loneliness can be challenging, but there are strategies to combat it. How do you currently cope with it?"]
+    },
+    {
+        "tag": "anger-management",
+        "patterns": ["I have trouble managing my anger", "Anger issues", "How can I control my temper?", "Dealing with anger outbursts"],
+        "responses": ["Anger management is essential. Let's discuss techniques to handle your anger constructively.", "Learning to manage anger is a valuable skill. What situations trigger your anger?"]
+    },
+    {
+        "tag": "trauma-recovery",
+        "patterns": ["I've experienced trauma", "Recovering from trauma", "Coping with traumatic events", "Seeking help after trauma"],
+        "responses": ["Recovering from trauma is a process. Let's talk about your experiences and how to heal.", "Trauma recovery is possible with the right support. Would you like to share your story?"]
+    },
+    {
+        "tag": "overcoming-addiction",
+        "patterns": ["I'm struggling with addiction", "How to overcome addiction", "Addiction recovery resources", "Finding sobriety"],
+        "responses": ["Overcoming addiction is a challenging journey. Let's explore treatment and recovery options.", "Seeking help for addiction is a brave step. How can I support you on your path to recovery?"]
+    },
+    {
+        "tag": "work-life-balance",
+        "patterns": ["I'm overwhelmed with work", "Balancing work and personal life", "Work-life harmony", "Reducing work-related stress"],
+        "responses": ["Achieving work-life balance is crucial for well-being. Let's discuss strategies to manage your workload.", "Balancing work and personal life is a common challenge. How can I assist you in achieving a healthier equilibrium?"]
+    },
+    {
+        "tag": "social-anxiety",
+        "patterns": ["I struggle with social anxiety", "Overcoming social anxiety", "Coping in social situations", "Anxious in social settings"],
+        "responses": ["Social anxiety can be tough, but there are techniques to build confidence. Let's explore them.", "Overcoming social anxiety is possible. What situations trigger your anxiety?"]
+    },
+    {
+        "tag": "positive-thinking",
+        "patterns": ["How can I develop a more positive mindset?", "Positive thinking techniques", "Cultivating optimism", "Shifting to a positive outlook"],
+        "responses": ["Positive thinking can improve your well-being. Let's explore exercises to shift your mindset.", "Cultivating optimism is a worthwhile endeavor. What areas of your life do you want to make more positive?"]
+    }
+    
+    
+]}
