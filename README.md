@@ -18,21 +18,13 @@ To get started with this project, follow these steps:
 3. Train the chatbot model (if necessary) using the training data.
 4. Run the chatbot application and start engaging in conversations.
 
-## Usage
-
-- Run `chatbot.py` to start the chatbot.
-- Enter your messages in the terminal, and the chatbot will respond accordingly.
-
 ## Contributing
 
 We welcome contributions from the community. If you'd like to improve the chatbot or fix issues, please feel free to submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact us at [your.email@example.com].
+If you have any questions or suggestions, feel free to contact us at [houdalarbi021@gmail.com].
 
 Enjoy conversing with your new AI chatbot!
